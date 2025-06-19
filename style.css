@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+  }
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: right ;
+    margin-left: 50px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .campo, .cidade {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .campo {
+    background-color: #e8f5e9;
+  }
+
+  .cidade {
+    background-color: #e3f2fd;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+  }
+
+  button:hover {
+    background-color: #388e3c;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0 0px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  nav {
+    background-color: #2e7d32;
+    padding: 10px 100px;
+    position: sticky;
+    text-align: right;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 6000;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #a5d6a7;
+  }
+
+  section {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 100px rgb(0 0 0 / 0.1);
+  }
+
+  h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+  }
+</style>
+</head>
+</body>
